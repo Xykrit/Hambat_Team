@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 1 Nomer 5</title>
+    <link rel="stylesheet" type="text/css" href="css nya.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div>
+        <a href="level1 no4.html" id="click">Back</a>
+        <a href="level.html" id="klik">Next</a>
+        
+        <div class="isi">
+            <a class="sama" href="">LEVEL 1</a>
+        </div>
+
+        <div class="isi2">
+            <a class="sama2" href="">Kipit</a>
+        </div>
+
+        <table id="tabel">
+            <tr>
+                <td>
+                    <a class="sama" href="#" onclick="checkAnswer('Kecil')">Kecil</a>
+                </td>
+                <td>
+                    <a class="sama" href="#" onclick="checkAnswer('Ketat')">Ketat</a>
+                </td>
+                <td>
+                    <a class="sama" href="#" onclick="checkAnswer('Sempit')">Sempit</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function checkAnswer(answer) {
+            if (answer === 'Sempit') {
+                Swal.fire({
+                    title: 'Jawaban Benar!',
+                    text: 'Selamat, Jawaban Anda benar!',
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                }).then(() => {
+                    window.location.href = 'level.html';
+                });
+            } else {
+                Swal.fire({
+                    title: 'Jawaban Salah!',
+                    text: 'Maaf, Jawaban Anda salah, Silahkan Mengulang!',
+                    icon: 'error',
+                    confirmButtonText: 'OK'
+                }).then(() => {
+                    window.location.href = 'level1 no1.html';
+                });
+            }
+        }
+    </script>
+</body>
+</html>

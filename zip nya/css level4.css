@@ -1,0 +1,109 @@
+body{
+    background-image: url(backgroundnew.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#click{
+    font-size: 25px;
+    background-color: rgb(137, 61, 6);
+    color: antiquewhite;
+    border:solid rgb(239, 150, 33);
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    text-decoration: none;
+    float: left;
+    
+}
+#click:hover{
+    background-color:rgb(60, 18, 7) ;
+}
+
+#klik{
+    font-size: 25px;
+    background-color: rgb(137, 61, 6);
+    color: antiquewhite;
+    border:solid rgb(239, 150, 33);
+    border-radius: 10px;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+#klik:hover{
+    background-color:rgb(60, 18, 7) ;
+}
+
+.isi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.isi2 {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.isi3 {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#tabel {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td{
+    padding: 8px 20px;
+}
+
+.sama{
+    margin: auto;
+    text-decoration: none;
+    padding: 7px; 
+    color: #FFEEB3;
+    font-size: 40px;
+    text-shadow: -2px 2px 2px #000;
+    border: 5px solid #fff; 
+    border-radius: 10px;
+    background-color: rgb(137, 61, 6);
+    border:solid rgb(239, 150, 33); 
+}
+.sama:hover{
+    background-color:rgb(60, 18, 7) ;
+    color: #fff;
+}
+
+.sama2{
+    text-decoration: none;
+    padding: 20px;
+    color: #FFEEB3;
+    font-size: 60px;
+    text-shadow: -4px 4px 4px #000;
+    border: 5px solid #fff; 
+    border-radius: 10px;
+    background-color: #3C486B;
+    border:solid #657ab6; 
+}
+
+.sama3{
+    padding: 20px;
+    color: #3C486B;
+    font-size: 30px;
+    text-shadow: -1px 1px 1px #000;
+    border: 5px solid #fff; 
+    border-radius: 10px;
+    background-color: #FFEEB3;
+}

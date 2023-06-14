@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 5 Nomer 3</title>
+    <link rel="stylesheet" type="text/css" href="css level4.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div>
+        <a href="level5 no2.html" id="click">Back</a>
+        <a href="level5 no4.html" id="klik">Next</a>
+        
+        <div class="isi">
+            <a class="sama" href="">LEVEL 5</a>
+        </div>
+
+        <div class="isi2">
+            <a class="sama2" href=""> ... nitu liwar langkarnya </a>
+        </div>
+
+        <div class="isi3">
+            <div class="sama3">kata yang tepat untuk melengkapi titik titik di atas adalah</div> 
+        </div>
+
+        <table id="tabel">
+            <tr>
+                <td>
+                    <a class="sama" href="#" onclick="checkAnswer('salah')">Lakian</a>
+                </td>
+                <td>
+                    <a class="sama" href="#" onclick="checkAnswer('salah')">Makanan</a>
+                </td>
+                <td>
+                    <a class="sama" href="#" onclick="checkAnswer('salah')">Pria</a>
+                </td>
+                <td>
+                    <a class="sama" href="#" onclick="checkAnswer('benar')">Binian</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function checkAnswer(answer) {
+            if (answer === 'benar') {
+                Swal.fire({
+                    title: 'Jawaban Benar!',
+                    text: 'Selamat, Jawaban Anda benar!',
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                }).then(() => {
+                    window.location.href = 'level5 no4.html';
+                });
+            } else {
+                Swal.fire({
+                    title: 'Jawaban Salah!',
+                    text: 'Maaf, Jawaban Anda salah, Silahkan Mengulang!',
+                    icon: 'error',
+                    confirmButtonText: 'OK'
+                }).then(() => {
+                    window.location.href = 'level5 no1.html';
+                });
+            }
+        }
+    </script>
+</body>
+</html>
