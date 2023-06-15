@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.Tentang h1{
+    text-align: center;
+    color: #FFEEB3;
+    font-size: 70px;
+    text-shadow: -4px 4px 4px #000;
+    background-color: #9E6F21;
+}
+.Tentang{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Tentang a{
+    display: flex;
+    justify-content: center;
+    color: #FFEEB3;
+    font-size: 70px;
+    text-shadow: -4px 4px 4px #000;
+    background-color: #9E6F21;
+    margin: auto;
+    border: solid #9E6F21;
+    border: 5px solid #6b4c1a;
+    text-decoration: none;
+}
+.Tentang a:hover{
+    background-color: #6b4c1a;
+    color: #fff;
+}
+footer{
+    text-align: center;
+    color: #FFEEB3;
+    font-size: 40px;
+    text-shadow: -4px 4px 4px #000;
+    background-color: #9E6F21;
+}
